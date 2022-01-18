@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CodePro.vn - CyberSoft.edu.vn</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <link rel="stylesheet" href="tinhtiencap.css" />
+  </head>
+  <body>
+    <div class="quanli__img">
+      <div class="quanli__img1">
+        <img src="./images/icons/codepro.png" alt="image1" />
+      </div>
+      <div class="quanli__img2">
+        <img src="./images/icons/cybersoft.png" alt="image2" />
+      </div>
+    </div>
+    <div class="quanli__khuvuc">
+      <h1>TINH TIỀN CÁP.</h1>
+    </div>
+    <div class="quanli__makhachhang">
+      <div class="form-group">
+        <div class="quanli__diem1">
+          <label for="usr">Nhập mã khách hàng:</label>
+          <input type="text" class="form-control" id="txtDiemMon1" />
+        </div>
+      </div>
+    </div>
+    <div class="quanli__loaikhachhang">
+      <h1>Mời bạn loại khách hàng:</h1>
+      <div class="loaikhachhang">
+        <div class="form-check-inline">
+          <label class="form-check-label">
+            <input
+              type="radio"
+              class="form-check-input"
+              value="nhadan"
+              name="selector"
+            />
+            Nhà dân
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <label class="form-check-label">
+            <input
+              type="radio"
+              class="form-check-input"
+              value="doanhnghiep"
+              name="selector"
+            />
+            Doanh nghiệp
+          </label>
+        </div>
+        <div class="chonkhachang">
+          <button onclick="chonkhachhang()">Khách hàng</button>
+        </div>
+      </div>
+    </div>
+    <!-- phan loai -->
+    <div id="nhadan">
+      <div class="quanli__diem">
+        <h2>Mời bạn nhập thông tin nhà:</h2>
+        <div class="form-group">
+          <div class="quanli__diem1">
+            <label for="usr">Số kết nối của bạn:</label>
+            <input type="text" class="form-control" id="soketnoind" />
+          </div>
+          <div class="quanli__diem1">
+            <label for="usr">Số kênh cao cấp của bạn:</label>
+            <input type="text" class="form-control" id="sokenhcaocapnd" />
+          </div>
+        </div>
+      </div>
+      <div class="quanli__thongbao">
+        <button onclick="tongtiennd()">Tổng tiền</button>
+        <br />
+      </div>
+      <div class="xuatketqua">
+        <p id="xuattiennd"></p>
+      </div>
+    </div>
+    <div id="doanhnghiep">
+      <div class="quanli__diem">
+        <h2>Mời bạn nhập thông tin doanh nghiệp:</h2>
+        <div class="form-group">
+          <div class="quanli__diem1">
+            <label for="usr">Số kết nối của bạn:</label>
+            <input type="text" class="form-control" id="soketnoidn" />
+          </div>
+          <div class="quanli__diem1">
+            <label for="usr">Số kênh cao cấp của bạn:</label>
+            <input type="text" class="form-control" id="sokenhcaocapdn" />
+          </div>
+        </div>
+      </div>
+      <div class="quanli__thongbao">
+        <button onclick="tongtiendn()">Tổng tiền</button>
+        <br />
+      </div>
+      <div class="xuatketqua">
+        <p id="xuattiendn"></p>
+      </div>
+    </div>
+    <script src="tinhtiencap.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

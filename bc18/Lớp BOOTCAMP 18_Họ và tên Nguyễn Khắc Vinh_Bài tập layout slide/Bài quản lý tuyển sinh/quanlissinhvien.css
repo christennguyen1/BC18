@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.quanli__img {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 10px;
+  margin-right: 1000px;
+  border-bottom: 1px dashed black;
+}
+.quanli__img img {
+  width: 200px;
+}
+.quanli__img .quanli__img1 {
+  margin-right: 100px;
+}
+.quanli__khuvuc {
+  padding-left: 30px;
+  padding-bottom: 10px;
+  margin-right: 1000px;
+  border-bottom: 1px dashed black;
+  margin-bottom: 10px;
+}
+.quanli__chon,
+.quanli__doituong {
+  margin-left: 30px;
+  margin-right: 1000px;
+  border-bottom: 1px dashed black;
+}
+.quanli__diem {
+  margin-right: 1000px;
+  margin-left: 30px;
+}
+.quanli__thongbao {
+  margin-left: 30px;
+  margin-right: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+.quanli__thongbao button {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.quanli__thongbao button:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+.xuatketqua {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.xuatketqua p {
+  text-align: center;
+  padding-top: 10px;
+  width: 350px;
+  height: 50px;
+  background-color: #e7cc5c;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#xuatdiem,
+#xuattrungtuyen {
+  display: none;
+}
